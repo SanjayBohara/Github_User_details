@@ -1,0 +1,104 @@
+/* Style the form container */
+*{
+  box-sizing: border-box;
+}
+#form {
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Style the search input */
+#search {
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  width: 12rem;
+  height: 3rem;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(43, 41, 41, 0.2);
+}
+
+/* Style the main container */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the user card container */
+#card-container {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 20px;
+  margin: 50px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the user's avatar image */
+#card-container img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #007bff;
+  border-radius: 50%;
+  /* margin-bottom: 10px; 
+  */
+  margin: 0;
+}
+
+
+/* Style the user's name */
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+ 
+}
+
+/* Style the user's bio */
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* Style user details section */
+.card-text.section {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* Style user details labels (e.g., Followers, Following, Repos) */
+.card-text.d-inline {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style the Twitter and Location labels */
+.card-text.mb-2.d-inline {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style the user details values (e.g., follower count, following count) */
+.card-text.mb-2.d-inline {
+  font-weight: normal;
+}
+
+/* Style the user details values for Twitter and Location */
+.card-text.d-inline {
+  font-weight: normal;
+}
+
+/* Add hover effect to the card */
+#card-container:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s;
+}
